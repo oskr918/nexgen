@@ -1,0 +1,33 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #11111294 56%, #0c0b0b7e 60%), url('../../public/eqipo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 0.7rem;
+    height: 85vh;
+    text-align: center;
+    gap: 40px;
+}
+
+.btn{
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: rgb(207, 27, 27);
+    color: white;
+    font-size: large;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(126, 10, 10);
+}

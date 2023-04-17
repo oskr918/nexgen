@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(to top, #11111294 56%, #0c0b0b7e 60%), url('../../public/eqipo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    color: white;
+ }
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .contactForm label,
+  .contactForm input,
+  .contactForm textarea {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .contactForm label {
+    font-weight: bold;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #ccc;
+  }
+  
+  .contactForm textarea {
+    height: 10rem;
+  }
+  
+  .contactForm button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+  }
+  
