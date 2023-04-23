@@ -16,11 +16,12 @@ function Navegacion() {
                         <span className={`${styles.line} ${styles["line3"]}`}></span>
                     </div>
                     <div className={styles.logo}>
-                        <Image src='/NexGenCortado.png' width={300} height={64}></Image>
+                        <Image src='/NexGenCortado.png' width={300} height={64} alt='logo'></Image>
                     </div>
                     <div className={styles['menu-items']}>
                         <li className='li'><Link className='a' href="/">Home</Link></li>
                         <li className='li'><Link className='a' href="abaut">about</Link></li>
+                        <li className='li'><Link className='a' href="proyectos">Proyects</Link></li>
                         <li className='li'><Link className='a' href="contacto">contact</Link></li>
                     </div>
                 </div>

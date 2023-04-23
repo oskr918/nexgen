@@ -1,5 +1,5 @@
 import styles from '../styles/abaut.module.css'
-import { Layout } from './components/Layout'
+import Layout from './components/Layout'
 const abaut = () => {
     return (
         <Layout>
